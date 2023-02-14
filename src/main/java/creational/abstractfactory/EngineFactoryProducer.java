@@ -3,7 +3,7 @@ package creational.abstractfactory;
 public class EngineFactoryProducer {
 
     public static AbstractEngineFactory getFactory(boolean isSportsVariant) {
-        if(isSportsVariant) {
+        if (isSportsVariant) {
             return new SportsCarEngineFactory();
         }
 

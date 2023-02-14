@@ -8,7 +8,7 @@ public class Car {
     private String engine;
     private String fuelType;
 
-    public Car (String carType){
+    public Car(String carType) {
         this.type = carType;
     }
 
