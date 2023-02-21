@@ -4,7 +4,7 @@ public abstract class Shape {
 
     protected Color color;
 
-    public Shape(Color color) {
+    protected Shape(Color color) {
         this.color = color;
     }
 
