@@ -6,6 +6,7 @@ public class Car implements Vehicle {
     private String color;
 
     public Car(Engine engine, String color) {
+        System.out.println("Creating new car...");
         this.engine = engine;
         this.color = color;
     }

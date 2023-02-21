@@ -7,6 +7,10 @@ public class TestFlyweightPattern {
         vehicle.start();
         vehicle.stop();
         System.out.println("Vehicle color is: " + vehicle.getColor());
+        vehicle = VehicleFactory.getVehicle("Black");
+        vehicle.start();
+        vehicle.stop();
+        System.out.println("Vehicle color is: " + vehicle.getColor());
     }
 
 }
