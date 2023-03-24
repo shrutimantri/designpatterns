@@ -9,7 +9,7 @@ public class Button implements Colleague {
         this.mediator = mediator;
     }
 
-    public void press(){
+    public void press() {
         System.out.println("Button pressed.");
         mediator.press();
     }
